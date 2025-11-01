@@ -94,5 +94,6 @@ Desenvolvido por Marlon Progetti
 
 ![Tela do programa](print.png)
 
-“Automação não é só para grandes sistemas — é também para pequenas tarefas que se repetem todos os dias.”
+“Automação não é só para grandes sistemas, é também para pequenas tarefas que se repetem todos os dias.”
+
 — Marlon Progetti
