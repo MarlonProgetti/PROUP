@@ -93,6 +93,7 @@ Desenvolvido por Marlon Progetti
 🔖 Versão: 1.0
 
 🔖 Badges (opcional)
-![Tela do programa](print.png)          .
+![Tela do programa](print.png)
+
 “Automação não é só para grandes sistemas — é também para pequenas tarefas que se repetem todos os dias.”
 — Marlon Progetti
