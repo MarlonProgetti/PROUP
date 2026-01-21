@@ -1,9 +1,9 @@
 # PROUP  
 ![thumbnail](./thumbnail.png)
 
-## 🧾 Descrição  
-O **PROUP** é um programa desenvolvido em Python com interface gráfica usando *CustomTkinter*, criado para **ler, renomear, organizar e unificar PDFs** (notas fiscais, boletos) automaticamente.  
-O sistema simplifica tarefas repetitivas, reduz erros de nomeação e facilita a gestão de documentos em lote.
+## 🧾 Description  
+**PROUP** is a Python application with a graphical interface built using *CustomTkinter*,designed to **read, rename, organize and merge PDF files** (invoices, bills) automatically.  
+The system simplifies repetitive tasks, reduces naming erros and improves batch document management.
 
 ---
 
