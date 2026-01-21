@@ -58,9 +58,13 @@ The programwill automatically rename the files based on the detected store/CNPJ 
 
 ## 📊 Project Structure
 File Description
-PROUP.py (or main aplication file) Main control and Graphical interface
-Internal functions PDF Processing: renaming, CNPJ extraction, and merging
-thumbnail.png	Cover image used in the README
+
+PROUP.py (or main aplication file) Main control and Graphical interface.
+
+Internal functions PDF Processing: renaming, CNPJ extraction, and merging.
+
+thumbnail.png	Cover image used in the README.
+
 Other supporting files, Images, CNPJ dictionary, configuration files, etc.
 
 🔄 Fluxo de Funcionamento
