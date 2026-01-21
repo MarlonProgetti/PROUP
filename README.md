@@ -2,44 +2,44 @@
 ![thumbnail](./thumbnail.png)
 
 ## 🧾 Description  
-**PROUP** is a Python application with a graphical interface built using *CustomTkinter*,designed to **read, rename, organize and merge PDF files** (invoices, bills) automatically.  
+**PROUP** is a Python application with a graphical interface built using *CustomTkinter*, designed to **read, rename, organize and merge PDF files** (invoices, bills) automatically.  
 The system simplifies repetitive tasks, reduces naming erros and improves batch document management.
 
 ---
 
-## ⚙️ Requisitos  
-- Python 3.10 ou superior  
-- Bibliotecas Python usadas:
+## ⚙️ Requirements  
+- Python 3.10 or higher  
+- Required Python libraries:
   ```bash
   pip install customtkinter pytesseract pdf2image PyPDF2 pandas pyautogui pillow
-Ferramentas externas:
+External tools:
 
-Poppler para Windows (necessário para conversão de PDF para imagem)
+Poppler for Windows (required for PDF-to-Image conversion)
 
-Tesseract OCR (necessário para leitura de texto dos PDFs)
+Tesseract OCR (required for extracting text from PDFs)
 
-Estrutura de pastas esperada no Windows:
+Espected Folder Structure on Windows:
 
 text
-Copiar código
+Copy cody
 C:\Renomeador_Boleto_pdf
 C:\Renomeador_NF_pdf
 C:\Unificador_pdf
-💻 Como usar
-Clone ou faça download do repositório:
+💻 How to use
+Clone or download the repository:
 
 bash
-Copiar código
+Copy code
 git clone https://github.com/MarlonProgetti/PROUP.git
-Abra o terminal ou prompt no diretório do projeto e instale as dependências listadas acima.
+Open a terminal or command prompt in the project directory and install the required dependences listed above.
 
-Ajuste, se necessário, os caminhos internos no script (ex: poppler_path, pytesseract.pytesseract.tesseract_cmd).
+If necessary, adjust the internal paths in the script (ex: poppler_path, pytesseract.pytesseract.tesseract_cmd).
 
-Coloque os arquivos PDF que deseja processar nas pastas conforme o tipo (boleto ou nota fiscal).
+Place the PDF files you want to process into the appropriate folders based on their type (bills or invoices)
 
-Execute o script principal (por exemplo python PROUP.py).
+Run the main script (for exemple: python PROUP.py).
 
-Escolha a funcionalidade desejada na interface:
+Select the desired functionality in the graphical interface:
 
 Boleto LIFE
 
@@ -49,18 +49,18 @@ Boleto B2Click
 
 NF B2Click
 
-Unificador de PDFs (use a pasta C:\Unificador_pdf para todos os PDFs a serem unidos)
+Unificador de PDFs (use the folder C:\Unificador_pdf for all PDFs to be merged)
 
-Acompanhe o status e a barra de progresso na interface gráfica.
+Monitor the process status and progress bar in the graphical interface.
 
-O programa irá renomear automaticamente os arquivos conforme a loja/CNPJ detectado e/ou gerar um PDF unificado conforme opção.
+The programwill automatically rename the files based on the detected store/CNPJ and/or generate a merged PDF according to selected option.
 
-📊 Estrutura do projeto
-Arquivo	Função
-PROUP.py (ou nome do arquivo principal)	Interface de controle principal
-Funções internas	Processamento dos PDFs — renomeação, extração de CNPJ, unificação
-thumbnail.png	Capa usada no README
-Outros arquivos suportes	Imagens, dicionário de CNPJs, etc.
+📊 Project Structure
+File Description
+PROUP.py (or main aplication file) Main control and Graphical interface
+Internal functions PDF Processing: renaming, CNPJ extraction, and merging
+thumbnail.png	Cover image used in the README
+Other supporting files, Images, CNPJ dictionary, configuration files, etc.
 
 🔄 Fluxo de Funcionamento
 O usuário inicia o aplicativo via interface.
