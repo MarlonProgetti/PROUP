@@ -26,7 +26,7 @@ C:\Renomeador_Boleto_pdf
 C:\Renomeador_NF_pdf
 C:\Unificador_pdf
 
-💻 How to use
+## 💻 How to use
 Clone or download the repository:
 
 bash
@@ -56,7 +56,7 @@ Monitor the process status and progress bar in the graphical interface.
 
 The programwill automatically rename the files based on the detected store/CNPJ and/or generate a merged PDF according to selected option.
 
-📊 Project Structure
+## 📊 Project Structure
 File Description
 PROUP.py (or main aplication file) Main control and Graphical interface
 Internal functions PDF Processing: renaming, CNPJ extraction, and merging
