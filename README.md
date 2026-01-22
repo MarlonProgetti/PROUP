@@ -67,38 +67,44 @@ thumbnail.png	Cover image used in the README.
 
 Other supporting files, Images, CNPJ dictionary, configuration files, etc.
 
-🔄 Fluxo de Funcionamento
-O usuário inicia o aplicativo via interface.
+##🔄 Application Workflow
 
-Seleciona a função desejada (boleto, nota fiscal, unificação).
+The user lauches the aplication through the graphical interface.
 
-O sistema realiza OCR no(s) PDF(s), detecta CNPJ ou número inicial conforme tipo.
+Selects the desired function (bills, invoices or PDF merge).
 
-Renomeia/organiza os arquivos automaticamente ou une-os em um único PDF.
+The System performs ORC on the PDFs files, and detects the CNPJ or initial document number based on the selected.
 
-O status final é exibido na interface com mensagem de conclusão.
+Files are automatically renamed and organized, or merge into a single PDF.
 
-🧩 Observações Técnicas
-Certifique-se de instalar Poppler e Tesseract OCR corretamente e definir os caminhos no código:
+The final status is displayed in the graphical interface with completion messege.
+
+## 🧩 technical Observations 
+
+Make sure **Poppler** and **Tesseract ORC** are correctly installed and that their are properly configured in the code:
 
 python
-Copiar código
+Copy code:
 poppler_path = r"C:\poppler\poppler-25.07.0\Library\bin"
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-Todos os scripts internos podem ser executados individualmente ou via a interface unificada.
 
-Em caso de travamento ou operação indesejada, utilize o botão "⛔" para interromper o processamento.
+All internal scripts can be executed individually or through the unified graphical interface.
 
-📜 Licença
-Este projeto está licenciado sob a MIT License. Veja o arquivo LICENSE para mais detalhes.
+In case of freezing or unexpected behavior, use the "⛔" Stop buttom to interrupt the process.
 
-👨‍💻 Autor
-Desenvolvido por Marlon Progetti
-📅 Ano: 2025
-🔖 Versão: 1.0
+## 📜 License
+
+This project is licensed under the MIT license. See the file LICENSE for more details.
+
+## 👨‍💻 Author
+
+Developed by **Marlon Progetti**
+
+📅 Year: 2025
+🔖 Version: 1.0
 
 ![Tela do programa](print.png)
 
-“Automação não é só para grandes sistemas, é também para pequenas tarefas que se repetem todos os dias.”
+"Automation isn't only for large systems, it is also for small tasks that repeat every day."
 
 — Marlon Progetti
