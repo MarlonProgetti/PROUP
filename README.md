@@ -67,7 +67,7 @@ thumbnail.png	Cover image used in the README.
 
 Other supporting files, Images, CNPJ dictionary, configuration files, etc.
 
-##🔄 Application Workflow
+## 🔄 Application Workflow
 
 The user lauches the aplication through the graphical interface.
 
